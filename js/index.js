@@ -1,17 +1,16 @@
-const content1=document.getElementById('content-1');
-const content2=document.getElementById('content-2');
-const content3=document.getElementById('content-3');
-const content4=document.getElementById('content-4');
-const counterTwo=document.getElementById('counter');
-
-const btn1 = document.querySelector('#btn-one');
-const btn2 = document.querySelector('#btn-two');
-const btn3 = document.querySelector('#btn-three');
-const btn4 = document.querySelector('#btn-four');
-const li1= document.getElementById('btn-one');
-const li2= document.getElementById('btn-two');
-const li3= document.getElementById('btn-three');
-const li4= document.getElementById('btn-four');
+const content1 = document.getElementById('content-1');
+const content2 = document.getElementById('content-2');
+const content3 = document.getElementById('content-3');
+const content4 = document.getElementById('content-4');
+const counterTwo = document.getElementById('counter');
+const btn1 = document.getElementById('#btn-one');
+const btn2 = document.getElementById('#btn-two');
+const btn3 = document.getElementById('#btn-three');
+const btn4 = document.getElementById('#btn-four');
+const li1 = document.getElementById('btn-one');
+const li2 = document.getElementById('btn-two');
+const li3 = document.getElementById('btn-three');
+const li4 = document.getElementById('btn-four');
 
 
 btn1.addEventListener('click',function(){
@@ -108,4 +107,4 @@ else if (key.keyCode == '52'){
     content4.classList.add('active');
 }
 
-})
+});
