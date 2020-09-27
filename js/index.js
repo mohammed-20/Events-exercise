@@ -3,13 +3,13 @@ const content2 = document.getElementById('content-2');
 const content3 = document.getElementById('content-3');
 const content4 = document.getElementById('content-4');
 const counterTwo = document.getElementById('counter');
-const btn1 = document.getElementById('#btn-one');
-const btn2 = document.getElementById('#btn-two');
-const btn3 = document.getElementById('#btn-three');
-const btn4 = document.getElementById('#btn-four');
+const btn1 = document.getElementById('btn-one');
+const btn2 = document.getElementById('btn-two');
+const btn3 = document.getElementById('btn-three');
+const btn4 = document.getElementById('btn-four');
 const li1 = document.getElementById('btn-one');
 const li2 = document.getElementById('btn-two');
-const li3 = document.getElementById('btn-three');
+const li3 = document.getElementById('btn-three');  
 const li4 = document.getElementById('btn-four');
 
 
@@ -63,7 +63,7 @@ btn4.addEventListener('click',function(){
    
 });
 
-window.addEventListener('keydown', function(key){
+window.addEventListener('keypdown', function(key){
 if (key.keyCode == '49'){
     li2.classList.remove('active');
     li1.classList.add('active');
